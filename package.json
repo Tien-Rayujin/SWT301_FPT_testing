@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "jest": "^29.4.1",
+    "json-server": "^0.17.1",
+    "mssql": "^9.1.1"
+  },
+  "name": "jest_vue_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "backend": "json-server --watch db.json --port 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
